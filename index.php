@@ -75,16 +75,16 @@ if (isset($_SESSION["energyWh"]) && isset($_SESSION["rateRM"]) && isset($_SESSIO
                     <?php echo $energykWh ?>kw
                     <br>
                     RATE :
-                    <?php echo $rateRM ?><br>RM
+                    <?php echo $rateRM ?>RM<br>
                 </div>
             </div>
-            <table class="table mt-5">
+            <table class="table mt-5 mb-5">
                 <thead>
                     <tr>
                         <th>#</th>
                         <th>Hour</th>
                         <th>Energy (kWh)</th>
-                        <th>Total (RM)</th>
+                        <th>TOTAL (RM)</th>
                     </tr>
                 </thead>
                 <tbody>

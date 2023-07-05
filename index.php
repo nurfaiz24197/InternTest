@@ -72,10 +72,10 @@ if (isset($_SESSION["energyWh"]) && isset($_SESSION["rateRM"]) && isset($_SESSIO
             <div class="card card-sm mb-5" style="border-color:blue; color:#084298;">
                 <div class="card-body fs-5 fw-bold">
                     POWER :
-                    <?php echo $energykWh ?>
+                    <?php echo $energykWh ?>kw
                     <br>
                     RATE :
-                    <?php echo $rateRM ?><br>
+                    <?php echo $rateRM ?><br>RM
                 </div>
             </div>
             <table class="table mt-5">

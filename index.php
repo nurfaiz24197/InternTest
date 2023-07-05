@@ -1,7 +1,4 @@
-<!--  
-     MUHAMAMAD NUR FAIZ BIN MOHAMAD TARMIZI 
-     970124145111
--->
+<!--  MUHAMAMAD NUR FAIZ BIN MOHAMAD TARMIZI -->
 <?php
 session_start();
 if (isset($_SESSION["energyWh"]) && isset($_SESSION["rateRM"]) && isset($_SESSION["currentRate"]) && isset($_SESSION["voltageV"]) && isset($_SESSION["currentA"])) {

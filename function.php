@@ -1,7 +1,4 @@
-<!--  
-     MUHAMAMAD NUR FAIZ BIN MOHAMAD TARMIZI 
-     970124145111
--->
+<!--  MUHAMAMAD NUR FAIZ BIN MOHAMAD TARMIZI -->
 <?php
 function genTable($energykWh, $currentRate)
 {
